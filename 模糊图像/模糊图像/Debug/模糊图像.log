@@ -1,0 +1,24 @@
+﻿Build started 2018/12/11 11:03:15.
+     1>Project "D:\OpenCVProject\day1211\模糊图像\模糊图像\模糊图像.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>d:\opencvproject\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>d:\opencvproject\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>d:\opencvproject\opencv\build\include\opencv2\core\utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>d:\opencvproject\day1211\模糊图像\模糊图像\source.cpp(41): error C3646: 'InputArray' : unknown override specifier
+     1>d:\opencvproject\day1211\模糊图像\模糊图像\source.cpp(41): error C3646: 'src' : unknown override specifier
+     1>d:\opencvproject\day1211\模糊图像\模糊图像\source.cpp(41): error C2601: 'bilateralFilter' : local function definitions are illegal
+     1>d:\opencvproject\day1211\模糊图像\模糊图像\source.cpp(46): error C2969: syntax error : '=' : expected member function definition to end with '}'
+     1>d:\opencvproject\day1211\模糊图像\模糊图像\source.cpp(46): error C2065: '用于推断图像外部像素的某种边界模式，有默认值BORDER_DEFAULT' : undeclared identifier
+     1>d:\opencvproject\day1211\模糊图像\模糊图像\source.cpp(47): warning C4138: '*/' found outside of comment
+     1>d:\opencvproject\day1211\模糊图像\模糊图像\source.cpp(47): error C2059: syntax error : '*'
+     1>d:\opencvproject\day1211\模糊图像\模糊图像\source.cpp(49): error C2228: left of '.bilateralFilter' must have class/struct/union
+                 type is 'unknown-type'
+     1>d:\opencvproject\day1211\模糊图像\模糊图像\source.cpp(42): error C2061: syntax error : identifier 'OutputArray'
+     1>d:\opencvproject\day1211\模糊图像\模糊图像\source.cpp(56): fatal error C1004: unexpected end-of-file found
+     1>Done Building Project "D:\OpenCVProject\day1211\模糊图像\模糊图像\模糊图像.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.81
